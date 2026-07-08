@@ -142,12 +142,12 @@ const App = () => {
               </p>
               <div className="mt-3 flex flex-col gap-3 sm:flex-row lg:flex-col">
                 <a
-                  href="https://eduhawk.in/contact"
+                  href="https://docs.google.com/forms/d/17SHgfk_9SyzEkg4Qnq155vvrlQEIE6-p592ZWlhL3tc/edit"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded-2xl bg-orange-500 px-5 py-3 text-center font-semibold text-white transition hover:bg-orange-600"
                 >
-                  Book Free Counselling
+                  Free Registration
                 </a>
                 <a
                   href="https://eduhawk.in/allcollege"
@@ -179,6 +179,55 @@ const App = () => {
 
       <main className="mx-auto flex max-w-7xl flex-col gap-6 px-4 py-6 sm:px-6 lg:px-8 lg:py-8">
         <section className="rounded-[2rem] border border-slate-200 bg-white p-5 shadow-[0_20px_60px_-30px_rgba(15,23,42,0.3)] sm:p-8 lg:p-10">
+          <div className="mb-6 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+  {/* Left Side - Text Content */}
+  <div className="order-2 lg:order-1 space-y-6 animate-fade-in-left">
+    <div className="text-center lg:text-left">
+      <p className="text-lg font-medium text-gray-600 mb-2">Here's a professional webinar copy for <span className="font-semibold text-blue-600">EduHawk Worldwide</span></p>
+      
+      <h1 className="text-3xl lg:text-4xl font-bold leading-tight text-gray-900 mb-6">
+        One Day Webinar on<br />
+        <span className="text-blue-600">"MBBS Abroad 2026: Admission, NMC Guidelines & Career Opportunities"</span>
+      </h1>
+
+      <div className="space-y-4 text-gray-700">
+        <p><strong>📅 Date:</strong> 18 July 2026</p>
+        <p><strong>🕕 Time:</strong> 06:00 PM to 07:30 PM</p>
+      </div>
+
+      <div className="mt-8">
+        <h3 className="font-semibold text-xl mb-3">Topics Covered</h3>
+        <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm">
+          <li className="flex items-start gap-2">• MBBS Admission Process 2026</li>
+          <li className="flex items-start gap-2">• NMC Approved Universities</li>
+          <li className="flex items-start gap-2">• NEET Eligibility & Documentation</li>
+          <li className="flex items-start gap-2">• MBBS Fees, Scholarships & Hostel</li>
+          <li className="flex items-start gap-2">• Visa Process & Student Life Abroad</li>
+          <li className="flex items-start gap-2">• FMGE/NExT Guidance</li>
+          <li className="flex items-start gap-2">• Live Q&A with MBBS Abroad Experts</li>
+        </ul>
+      </div>
+
+      <div className="mt-8 pt-6 border-t border-gray-200">
+        <p className="font-medium text-emerald-600">100% Free Webinar | Google Meet | Live Q&A | Expert Guidance</p>
+        <p className="text-sm text-gray-500 mt-4">Limited Seats Available – Register Now!</p>
+      </div>
+    </div>
+  </div>
+
+  {/* Right Side - Image */}
+  <div className="order-1 lg:order-2 flex justify-center lg:justify-end animate-fade-in-right">
+    <img
+      src="/src/assets/edu.png"
+      alt="Edu-Hawk branding"
+      className="h-auto w-full max-w-md rounded-3xl shadow-2xl object-contain hover:scale-105 transition-transform duration-500"
+    />
+  </div>
+</div>
+
+          
+          
+
           <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
             <div className="max-w-2xl">
               <p className="text-sm font-semibold uppercase tracking-[0.3em] text-orange-600">
