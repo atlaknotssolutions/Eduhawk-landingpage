@@ -176,6 +176,7 @@ const App = () => {
           </div>
         </div>
       </header>
+      
 
       <main className="mx-auto flex max-w-7xl flex-col gap-6 px-4 py-6 sm:px-6 lg:px-8 lg:py-8">
         <section className="rounded-[2rem] border border-slate-200 bg-white p-5 shadow-[0_20px_60px_-30px_rgba(15,23,42,0.3)] sm:p-8 lg:p-10">
